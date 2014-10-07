@@ -14,9 +14,42 @@ Version: 2.1.2
 /*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
 /****************************************************************/
 
+/* Fix product page -> product thumbnails on the left */
+.single-product #sync1 {
+    width: 80%;
+    float: right;
+}
 
+.single-product .product_thumbs {
+    width: 21%;
+    float: left;
+}
 
+.single-product .product_thumbs #sync2 {
+    margin-top: 0;
+    overflow: visible;
+}
 
+.single-product .product_thumbs #sync2 .owl-wrapper {
+    width: 100% !important;
+}
+
+.single-product .product_thumbs #sync2 .owl-item .button {
+    height: auto !important;
+}
+
+.single-product .product_thumbs #sync2 .owl-item {
+    width: 100% !important;
+    display: block;
+    float: none;
+    height: auto !important;
+    margin-bottom: 10px;
+
+}
+
+.single-product .product_thumbs #sync2 .owl-item:last-child {
+    display: none !important;
+}
 
 
 
