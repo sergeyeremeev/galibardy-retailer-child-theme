@@ -53,31 +53,47 @@ Version: 2.1.2
 
 
 /* Adjust columns sizes on the product page *********************/
-.gbtr_poduct_details_left_col {
-    width: 475px;
-    margin-right: 20px;
-}
+@media all and (min-width: 960px) {
+    .gbtr_poduct_details_left_col {
+        width: 475px;
+        margin-right: 20px;
+    }
 
-.gbtr_poduct_details_right_col {
-    width: 345px;
-    float: left;
-    margin-right: 10px;
+    .gbtr_poduct_details_right_col {
+        width: 345px;
+        float: left;
+        margin-right: 10px;
+    }
 }
 
 
 /* Fix product page -> add support for recently viewed items ****/
-.recently-viewed {
-    width: 90px;
-    float: left;
+@media all and (max-width: 959px) {
+    .recently-viewed li {
+        width: 50%;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .recently-viewed ul li a img {
+        float: left;
+    }
 }
 
-.recently-viewed h3 {
-    border-bottom: 1px dotted gray;
-    margin-bottom: 5px;
-}
+@media all and (min-width: 960px) {
+    .recently-viewed {
+        width: 90px;
+        float: left;
+    }
 
-.recently-viewed ul li a img {
-    width: 100%;
+    .recently-viewed h3 {
+        border-bottom: 1px dotted gray;
+        margin-bottom: 5px;
+    }
+
+    .recently-viewed ul li a img {
+        width: 100%;
+    }
 }
 
 
