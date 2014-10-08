@@ -97,7 +97,21 @@ Version: 2.1.2
 }
 
 
+/* Product page -> Image scaling on hover, no pop-up on click **/
+#sync1 .owl-item img:hover {
+    transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+}
 
+#sync1 .theretailer_zoom {
+    display: none !important;
+}
+
+.no_popup {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
 
 
 
