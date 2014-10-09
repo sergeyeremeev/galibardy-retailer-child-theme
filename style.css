@@ -1,14 +1,14 @@
 /*
-Theme Name: The Retailer Child Theme
-Theme URI: http://theretailer.getbowtied.com/
-Description: This is a child theme for The Retailer.
-Author: Get Bowtied
-Author URI: http: //www.getbowtied.com/
-Template: theretailer
-Version: 2.1.2
+Theme Name: The Galibardy Child Theme
+Theme URI: http://galibardy.com/
+Description: This is a child theme for The Galibardy.
+Author:
+Author URI:
+Template: galibardy
+Version: 1.0.0
 */
 
-@import url("../theretailer/style.css");
+@import url("../galibardy/style.css");
 
 /****************************************************************/
 /*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
@@ -111,6 +111,25 @@ Version: 2.1.2
     position: absolute;
     top: 0;
     z-index: 99;
+}
+
+
+/* Home page -> decrease header height **************************/
+.gbtr_header_wrapper {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+/* Home page -> social icons in line ****************************/
+#simple-social-icons-2 ul li {
+    position: relative;
+    float: left;
+    clear: none;
+}
+
+/* set open sans font *******************************************/
+.shortcode_banner_simple_inside h4, .shortcode_banner_simple_height h4, .shortcode_banner_simple_bullet, .shortcode_banner_simple_height_bullet, .main-navigation .mega-menu > ul > li > a, .cbutton, .widget h4.widget-title, .widget input[type=submit], .widget.widget_shopping_cart .total, .widget.widget_shopping_cart .total strong, ul.product_list_widget span.amount, .gbtr_tools_info, .gbtr_tools_account, .gbtr_little_shopping_bag .title, .product_item h3, .product_item .price, a.button, button.button, input.button, #respond input#submit, #content input.button, div.product .product_brand, div.product .summary span.price, div.product .summary p.price, #content div.product .summary span.price, #content div.product .summary p.price, .quantity input.qty, #content .quantity input.qty, div.product form.cart .variations .label, #content div.product form.cart .variations .label, .gbtr_product_share ul li a, div.product .woocommerce_tabs ul.tabs li a, #content div.product .woocommerce_tabs ul.tabs li a, div.product .woocommerce-tabs ul.tabs li a, #content div.product .woocommerce-tabs ul.tabs li a, table.shop_table th, table.shop_table .product-name .category, table.shop_table td.product-subtotal, .coupon .button-coupon, .cart_totals th, .cart_totals td, form .form-row label, table.shop_table td.product-quantity, table.shop_table td.product-name .product_brand, table.shop_table td.product-total, table.shop_table tfoot th, table.shop_table tfoot td, .gbtr_checkout_method_content .title, .gbtr_left_column_my_account ul.menu_my_account, table.my_account_orders td.order-total, .minicart_total_checkout, .addresses .title h3, .sf-menu a, .shortcode_featured_1 a, .shortcode_tabgroup ul.tabs li a, .shortcode_our_services a, span.onsale, .product h3, #respond label, form label, form input[type=submit], .section_title, .entry-content-aside-title, .gbtr_little_shopping_bag_wrapper_mobiles span, .grtr_product_header_mobiles .price, .gbtr_footer_widget_copyrights, .woocommerce_message, .woocommerce_error, .woocommerce_info, .woocommerce-message, .woocommerce-error, .woocommerce-info, p.product, .empty_bag_button, .from_the_blog_date, .gbtr_dark_footer_wrapper .widget_nav_menu ul li, .widget.the_retailer_recent_posts .post_date, .theretailer_product_sort, .light_button, .dark_button, .light_grey_button, .dark_grey_button, .custom_button, .style_1 .products_slider_category, .style_1 .products_slider_price, .page_archive_subtitle, .mc_var_label, .theretailer_style_intro, .wpmega-link-title, #megaMenu h2.widgettitle, .group_table .price, .shopping_bag_centered_style, .customer_details dt, #lang_sel_footer, .out_of_stock_badge_single, .out_of_stock_badge_loop, .portfolio_categories li, #load-more-portfolio-items, .portfolio_details_item_cat, .yith-wcwl-add-button, table.shop_table .amount, .woocommerce table.shop_table .amount, .yith-wcwl-share h4, .wishlist-out-of-stock, .wishlist-in-stock, .orderby, em.items_found, .select2-results, .messagebox_text, .vc_progress_bar, .wpb_heading.wpb_pie_chart_heading, .shortcode_icon_box .icon_box_read_more, .vc_btn {
+    font-family: 'Open Sans' !important;
 }
 
 
